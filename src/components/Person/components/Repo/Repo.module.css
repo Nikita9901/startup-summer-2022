@@ -1,0 +1,26 @@
+.list_item{
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    margin-bottom: 24px;
+    background-color: #f6f5f5;
+    text-shadow: 0 0 1px #86b6f6;
+}
+.list_item:hover{
+    box-shadow: 0 0 4px #6e6eef;
+}
+.name{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0064EB;
+    margin: 5px;
+
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin: 5px;
+}

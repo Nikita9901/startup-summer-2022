@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+    height: 72px;
+    margin-bottom: 24px;
+    background: #0064EB;
+    box-shadow: 0 2px 3px #4d4d4d;
+}
+.logo{
+    height: 40px;
+    width: 41px;
+    margin: 0 30px;
+    object-fit: cover;
+    object-position: center center;
+}
+.input{
+    margin-right: 3px;
+    max-width: 500px;
+    font-size: 14px;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px white;
+}
+.icon{
+    color: #808080;
+}
