@@ -3,7 +3,7 @@
     padding: 24px;
     flex-direction: column;
     margin-bottom: 24px;
-    background-color: #f6f5f5;
+    background-color: #fff;
     text-shadow: 0 0 1px #86b6f6;
 }
 .list_item:hover{

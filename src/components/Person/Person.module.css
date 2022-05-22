@@ -20,7 +20,7 @@
     font-weight: 600;
     font-size: 26px;
     line-height: 130%;
-    margin-bottom: 12px;
+    margin: 15px 0;
 }
 .login{
     font-weight: 400;
@@ -33,24 +33,19 @@
 
 .follow{
     display: flex;
-    align-items: center;
     flex-direction: row;
-}
-.follow div{
-    margin-right: 40px;
-}
-.avatar{
-    margin-bottom: 30px;
+    font-size: 16px;
 }
 .icon{
     height: 15px;
     width: 15px;
     margin-right: 5px;
+    margin-left: 10px;
 }
 @media screen and (max-width: 913px) {
     .wrapper{
         flex-direction: column;
-        margin: 0 20px;
+        margin: 0 5px;
     }
     .person_info{
         display: flex;

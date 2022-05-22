@@ -1,6 +1,6 @@
 import { Input } from "antd";
-import logo from "./images/logo.png";
 import { SearchOutlined } from "@ant-design/icons";
+import logo from "./images/logo.png";
 import { useDispatch } from "react-redux";
 import { searchPerson } from "@ghu/store/actions";
 import styles from "./Header.module.css";
