@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Input } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 import logo from "./images/logo.png";
@@ -17,6 +18,13 @@ const Header = () => {
     },
     true
   );
+  const event = new KeyboardEvent("keydown", {
+    view: window,
+    key: "Enter",
+  });
+  const searchButtonPhone = () => {
+    document.querySelector("input").dispatchEvent(event);
+  };
 
   return (
     <div className={styles.container}>
@@ -27,6 +35,9 @@ const Header = () => {
         placeholder="Enter GitHub username"
         prefix={<SearchOutlined className={styles.icon} />}
       />
+      <div onClick={searchButtonPhone} className={styles.button}>
+        search
+      </div>
     </div>
   );
 };

@@ -4,7 +4,8 @@ import { getApiResource } from "@ghu/utils/network";
 import { Avatar } from "antd";
 import { UserOutlined } from "@ant-design/icons";
 import followers from "./icons/followers.png";
-import { NotFound, Loader } from "./components";
+import { NotFound } from "./components";
+import { Loader } from "@ghu/components/Loader";
 import styles from "./Person.module.css";
 
 const RepoList = React.lazy(() => import("./components/RepoList/RepoList"));
